@@ -34,7 +34,7 @@ def proxiess():
 def toes(titty):
     try:
         while True:
-            cookies = {'c_user': '100076399534812', 'xs': 'xs=15%3AnD47jD_SgWSWKw%3A2%3A1673480331%3A-1%3A2229%3A%3AAcW0gSb2uWohuMvSCQ36nFPl7hi_SpMz32_PdfsHRQ'}
+            cookies = {'c_user': '[cookie]', 'xs': '[cookie]'}
             r = requests.get("https://developers.facebook.com/tools/debug/echo/?q=https://translate.google.com/translate?u="+titty, allow_redirects=False, cookies=cookies)
             if r.ok:
                 buffnet = open('buffnet.txt', 'w')
